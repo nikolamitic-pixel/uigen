@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/nikolamitic/Downloads/uigen/src/lib/anon-work-tracker* -type f)",
+      "Bash(npm audit *)",
+      "Bash(npm test *)",
+      "Bash(xargs cat *)",
+      "Bash(npx vitest *)",
+      "mcp__playwright",
+      "WebFetch(domain:localhost)",
+      "Bash(curl *)",
+      "Bash(open *)",
+      "Bash(screencapture -x /tmp/uigen-screenshot.png)",
+      "Bash(screencapture -x -t png /tmp/uigen-screenshot.png)",
+      "Bash(echo \"exit: $?\")"
+    ]
+  }
+}
